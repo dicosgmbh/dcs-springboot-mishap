@@ -1,0 +1,83 @@
+#########################################################################
+#
+# Internationalisierte Texte
+#
+# Jeder Text ist durch einen Schlüssel identifiziert. Dazu wird in 
+# dieser Datei mit dem Eintrag "translation.<Schlüssel>" der
+# Default Text angegeben. Sprach-spezifische Übersetzungen können dann
+# mit Einträgen gemacht werden, denen der Suffix "_" gefolgt vom 
+# Sprachcode angehängt ist.
+#
+#########################################################################
+
+translation.test.mpn: Test in der Default Sprache
+translation.test.mpn_en: english test
+
+translation.lang.de: Deutsch
+translation.lang.de_en: German
+translation.lang.en: Englisch
+translation.lang.en_en: English
+
+translation.gui.search: Suche
+translation.gui.search_en: Search
+translation.gui.filter.filterAll: Alle anzeigen
+translation.gui.filter.filterAll_en: Show all
+translation.gui.filter.online: Online
+translation.gui.filter.online_en: Online
+translation.gui.filter.offline: Offline
+translation.gui.filter.offline_en: Offline
+translation.gui.filter.unkown: Unbekannt
+translation.gui.filter.unkown_en: Unkown
+translation.gui.since : seit
+translation.gui.since_en: last seen
+
+translation.gui.cpc.form.title: Looking Glass
+translation.gui.cpc.form.title_en: Looking Glass
+translation.gui.cpc.form.request_type: Abfrage-Typ
+translation.gui.cpc.form.request_type_en: Request-Type
+translation.gui.cpc.form.router: Router
+translation.gui.cpc.form.router_en: Router
+translation.gui.cpc.form.command: Kommando
+translation.gui.cpc.form.command_en: Command
+translation.gui.cpc.form.settings: Einstellungen
+translation.gui.cpc.form.settings_en: Settings
+translation.gui.cpc.form.execute: Ausführen
+translation.gui.cpc.form.execute_en: Execute
+translation.gui.cpc.form.reset: Zurücksetzen
+translation.gui.cpc.form.reset_en: Reset
+translation.gui.cpc.form.select_placeholder: Bitte auswählen
+translation.gui.cpc.form.select_placeholder_en: Please select
+translation.gui.cpc.form.parameter.ip: Ziel IP Adresse (IPv4 oder IPv6)
+translation.gui.cpc.form.parameter.ip_en: Destination IP Adresse (IPv4 or IPv6)
+translation.gui.cpc.form.parameter.ip.placeholder: Z.B.: 192.1.1.1
+translation.gui.cpc.form.parameter.ip.placeholder_en: e.g.: 192.1.1.1
+translation.gui.cpc.form.usecase.company_net: Company Net
+translation.gui.cpc.form.usecase.company_net_en: Company Net
+translation.gui.cpc.form.usecase.connect: Internet Connect AS
+translation.gui.cpc.form.usecase.connect_en: Internet Connect AS
+translation.gui.cpc.form.result: Ergebnis
+translation.gui.cpc.form.result_en: Result
+translation.gui.cpc.form.result.location: Standort
+translation.gui.cpc.form.result.location_en: Location
+translation.gui.cpc.form.result.pRouter: Peering Router
+translation.gui.cpc.form.result.pRouter_en: Peering Router
+translation.gui.cpc.form.result.copy: Kopieren
+translation.gui.cpc.form.result.copy_en: Copy
+translation.gui.cpc.form.result.copy.done: Kopiert!
+translation.gui.cpc.form.result.copy.done_en: Copied!
+translation.gui.cpc.form.result.ip: IP Adresse
+translation.gui.cpc.form.result.ip_en: IP Adress
+
+translation.gui.cpc.popup.noPermission.title: Keine Berechtigung
+translation.gui.cpc.popup.noPermission.title_en: No Permission
+translation.gui.cpc.popup.noPermission.message: Sie haben keine Berechtigung Looking Glass zu verwenden!
+translation.gui.cpc.popup.noPermission.message_en: You have no permission to use Looking Glass!
+
+translation.gui.cpc.command.traceroute: Traceroute
+translation.gui.cpc.command.ping: Ping
+translation.gui.cpc.command.ip_bgp_summary: BGP Summary
+translation.gui.cpc.command.logging: Logging
+translation.gui.cpc.command.isdn_status: ISDN Status
+translation.gui.cpc.command.clock: Clock
+translation.gui.cpc.command.version: Version
+

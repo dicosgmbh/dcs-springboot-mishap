@@ -1,2 +1,3 @@
-# dcs-springboot-mishap
-spring boot application with some problems
+# phr-cpc
+
+Product Hub - RESTful services to access CPC Backend from Order Factory and other consumers

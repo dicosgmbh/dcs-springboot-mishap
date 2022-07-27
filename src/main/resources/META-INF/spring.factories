@@ -1,0 +1,4 @@
+org.springframework.boot.env.PropertySourceLoader=\
+de.dicos.dcsspring.config.PropsPropertySourceLoader,\
+org.springframework.boot.env.PropertiesPropertySourceLoader,\
+org.springframework.boot.env.YamlPropertySourceLoader

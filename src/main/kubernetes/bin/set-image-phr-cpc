@@ -1,0 +1,3 @@
+#!/bin/bash
+
+kubectl -n ph set image deployment/phr-cpc phr-cpc-app=docker.da.dicos.de/ph/phr-cpc@${image_digest}

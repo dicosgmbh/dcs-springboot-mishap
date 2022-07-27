@@ -1,0 +1,40 @@
+
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
+	<id>tricc</id>
+	<formats>
+		<format>tar</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+
+	<fileSets>
+		<fileSet>
+			<directory>src/main/kubernetes/configmaps/phr-cpc.examples</directory>
+			<outputDirectory>phr-cpc/conf.examples</outputDirectory>
+			<filtered>true</filtered>
+			<directoryMode>755</directoryMode>
+			<fileMode>644</fileMode>
+			<lineEnding>unix</lineEnding>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/kubernetes/configmaps/phr-cpc</directory>
+			<outputDirectory>phr-cpc/conf</outputDirectory>
+			<filtered>true</filtered>
+			<directoryMode>755</directoryMode>
+			<fileMode>644</fileMode>
+			<lineEnding>unix</lineEnding>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/kubernetes/manifests/phr-cpc</directory>
+			<outputDirectory>tricc/conf/fragments</outputDirectory>
+			<includes>
+				<include>*.tricc-fragment.properties</include>
+			</includes>
+			<filtered>true</filtered>
+			<directoryMode>755</directoryMode>
+			<fileMode>644</fileMode>
+			<lineEnding>unix</lineEnding>
+		</fileSet>
+	</fileSets>
+</assembly>

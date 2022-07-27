@@ -1,0 +1,25 @@
+spring:
+  application.name: mishap
+  config.additional-location: "\
+    classpath:translations-common.props,\
+    classpath:translations.props,\
+    file:///config/mishap/translations.props,\
+    file:///config/mishap/mishap.properties"
+  cloud:
+    kubernetes:
+      enabled: false
+---
+spring:
+  profiles: devel
+  config.additional-location: "\
+    classpath:translations-common.props,\
+    classpath:translations.props,\
+    file:///${user.home}/config/mishap/translations.props,\
+    file:///${user.home}/config/mishap/mishap.properties"
+---
+spring:
+  profiles: e2e
+  config.additional-location: "\
+    classpath:translations-common.props,\
+    classpath:translations.props"
+    
