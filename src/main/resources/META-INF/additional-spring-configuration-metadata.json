@@ -1,47 +1,9 @@
-{"properties": [
-  {
-    "name": "app.threeLetterName",
-    "type": "java.lang.String",
-    "description": "A description for 'app'"
-  },
-  {
-    "name": "app.categoryType",
-    "type": "java.lang.String",
-    "description": "A description for 'app.categoryType'"
-  },
-  {
-    "name": "app.apptable",
-    "type": "de.dicos.smlib.db.base.AppDbUpdaterConfig",
-    "description": "A description for 'app.apptable'"
-  },
-  {
-    "name": "proxy",
-    "type": "de.dicos.smspring.common.proxy.ProxyConfig",
-    "description": "A description for 'proxy'"
-  },
-  {
-    "name": "app.dummy.login.active",
-    "type": "java.lang.String",
-    "description": "A description for 'app.dummy.login.active'"
-  },
-  {
-    "name": "tealium.environment.autotest",
-    "type": "java.lang.String",
-    "description": "A description for 'tealium.environment.autotest'"
-  },
-  {
-    "name": "auth.jwt.supportCsrfToken",
-    "type": "java.lang.String",
-    "description": "A description for 'auth.jwt.supportCsrfToken'"
-  },
-  {
-    "name": "aida.device.soap",
-    "type": "de.dicos.dcsspring.soap.SoapClientConfig<AidaDeviceServicePort>",
-    "description": "A description for 'aida.device'"
-  },
-  {
-    "name": "aida.device.dummy",
-    "type": "de.dicos.phr.cpc.dummy.aida.DeviceDummyConfiguration",
-    "description": "A description for 'aida.device.dummy'"
-  }
-]}
+{
+  "properties": [
+    {
+      "name": "app.threeLetterName",
+      "type": "java.lang.String",
+      "description": "A description for 'app'"
+    }
+  ]
+}

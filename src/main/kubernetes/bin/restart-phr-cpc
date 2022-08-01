@@ -1,3 +1,0 @@
-#!/bin/bash
-
-kubectl -n ph rollout restart deployment phr-cpc
